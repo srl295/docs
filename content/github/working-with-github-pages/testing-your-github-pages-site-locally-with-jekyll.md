@@ -30,6 +30,7 @@ Before you can use Jekyll to test a site, you must:
 {% data reusables.pages.navigate-publishing-source %}
 3. Run your Jekyll site locally.
   ```shell
+  $ bundle install
   $ bundle exec jekyll serve
   > Configuration file: /Users/octocat/my-site/_config.yml
   >            Source: /Users/octocat/my-site
